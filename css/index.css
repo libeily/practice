@@ -1,0 +1,103 @@
+.wrapper {
+    background-color: #ffffff;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Open Sans', 'Helvetica-Neue', Helvetica, Arial, Sans-serif;
+    font-size: 100%;
+    color: #000000;
+
+}
+
+strong {
+    font-weight: bold;
+}
+
+.wrapper .topBar {
+    background-color: #f0f0f0;
+    border-color: #dddddd;
+}
+
+.wrapper .header .inner {
+    width: 90%;
+    margin: 0 auto;
+    line-height: 30px;
+
+}
+
+.wrapper .header .inner .oneHalf {
+    display: inline-block;
+    margin: 10px 0px;
+    margin-right: 4%;
+    width: 45%;
+    font-size: 11px;
+}
+
+.topBar .inner a {
+    text-decoration: none;
+    color: #d94800;
+}
+
+.wrapper .header .inner .last {
+    text-align: right;
+}
+
+.logo {
+    float: left;
+    margin: 15px auto;
+}
+
+.list {
+    /*width: 70%;*/
+    float: right;
+
+    font-size: 18px;
+    line-height: 40px;
+    margin: 5px auto;
+}
+
+.list ul {
+    /*position: absolute;*/
+    /*top: 100%;*/
+    float: left;
+
+}
+
+.list ul li {
+    float: left;
+    list-style: none;
+    white-space: nowrap;
+}
+
+.list li a {
+    display: block;
+    font-family: 'Microsoft Yahei', 'Open Sans', Arial, Helvetica, sans-serif '';
+    color: #444;
+    text-decoration: none;
+    outline: none;
+    padding: .5em 1em;
+
+}
+
+.list li a:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.list .subMenu {
+    position: absolute;
+    z-index: 100;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .2);
+    /*min-width: 12em;*/
+}
+
+.list .subMenu li {
+    clear:both;
+    display: block;
+    min-width: 12em;
+    border-bottom: 1px solid #dddddd;
+
+}
+
+@media only screen and (max-width: 959px)and(min-width: 720px) {
+
+}
