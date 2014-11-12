@@ -19,7 +19,7 @@ strong {
 }
 
 .wrapper .header .inner {
-    width: 90%;
+    width:75%;
     margin: 0 auto;
     line-height: 30px;
 
@@ -48,19 +48,14 @@ strong {
 }
 
 .list {
-    /*width: 70%;*/
     float: right;
-
     font-size: 18px;
     line-height: 40px;
     margin: 5px auto;
 }
 
 .list ul {
-    /*position: absolute;*/
-    /*top: 100%;*/
     float: left;
-
 }
 
 .list ul li {
@@ -87,7 +82,7 @@ strong {
     position: absolute;
     z-index: 100;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, .2);
-    /*min-width: 12em;*/
+
 }
 
 .list .subMenu li {
@@ -98,6 +93,6 @@ strong {
 
 }
 
-@media only screen and (max-width: 959px)and(min-width: 720px) {
+@media  (max-width: 959px)and(min-width: 720px) {
 
 }
